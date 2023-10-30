@@ -1,0 +1,50 @@
+   0 mkdir -p
+   1 mkdir -p /tmp
+   2 mkdir -p /opt
+   3 cd /opt
+   4 ls
+   5 mkdir name
+   6 ls
+   7 cd name
+   8 mkdir user
+   9 ls
+  10 cd user
+  11 touch file.txt
+  12 cd
+  13 cd /
+  14 ls
+  15 mkdir /opt/name2
+  16 mkdir /opt/name2/user2
+  17 mkdir -p /opt/name2/user2
+  18 ls
+  19 tree /opt/
+  20 touch /opt/name2/user2/file2.txt
+  21 ls
+  22 cp --help
+  23 cp /opt/name/user/file.txt /tmp/newfile.txt
+  24 cp /opt/name/user /tmp
+  25 cp -r /opt/name/user /tmp
+  26 tree /tmp
+  27 mv /opt/name2/user2/file2.txt
+  28 mv /opt/name2/user2/file2.txt /tmp/newfile2.txt
+  29 mv /opt/name2 /tmp
+  30 clear
+  31 dir
+  32 ls
+  33 tree -opt
+  34 tree /opt
+  35 tree /tmp
+  36 rm --help
+  37 tree /opt
+  38 tree /tmp
+  39 rm /tmp/user
+  40 rm -r  /tmp/user
+  41 tree /tmp
+  42 clear
+  43 tree /tmp
+  44 rm -ri /tmp/name2
+  45 Y
+  46 tree /tmp
+  47 history
+  48 clear
+  49 history > history.txt
